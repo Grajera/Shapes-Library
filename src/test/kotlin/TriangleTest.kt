@@ -12,6 +12,14 @@ class TriangleTest {
     }
 
     @Test
+    fun testGetPoints() {
+        val triangle = Triangle(Point(0.0, 0.0), Point(4.0, 0.0), Point(6.0, 3.0))
+        assertEquals(Point(0.0, 0.0), triangle.getPoint1())
+        assertEquals(Point(4.0, 0.0), triangle.getPoint2())
+        assertEquals(Point(6.0, 3.0), triangle.getPoint3())
+    }
+
+    @Test
     fun testZeroAreaTriangle() {
         assertFailsWith<IllegalArgumentException> {
             Triangle(Point(1.0, 1.0), Point(2.0, 2.0), Point(3.0, 3.0))

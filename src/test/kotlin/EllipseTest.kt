@@ -12,6 +12,18 @@ class EllipseTest {
     }
 
     @Test
+    fun testGetRadiusA() {
+        val ellipse = Ellipse(Point(0.0, 0.0), 3.0, 2.0)
+        assertEquals(3.0, ellipse.getRadiusA())
+    }
+
+    @Test
+    fun testGetRadiusB() {
+        val ellipse = Ellipse(Point(0.0, 0.0), 3.0, 2.0)
+        assertEquals(2.0, ellipse.getRadiusB())
+    }
+
+    @Test
     fun testZeroRadiusEllipse() {
         assertFailsWith<IllegalArgumentException> {
             Ellipse(Point(1.0, 1.0), 0.0, 1.0)

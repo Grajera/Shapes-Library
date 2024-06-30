@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CircleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-06-30T01:51:10" hostname="DESKTOP-0OF3D0K" time="0.042">
+  <properties/>
+  <testcase name="testGetArea()" classname="CircleTest" time="0.042"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

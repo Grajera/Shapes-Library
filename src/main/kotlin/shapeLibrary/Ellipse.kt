@@ -1,4 +1,4 @@
-package libs
+package shapeLibrary
 
 open class Ellipse(private val center: Point, private val radiusA: Double, private val radiusB: Double) {
     init {

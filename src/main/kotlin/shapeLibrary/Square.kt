@@ -1,4 +1,4 @@
-package libs
+package shapeLibrary
 
 class Square(topLeft: Point, sideLength: Double) : Rectangle(topLeft, Point(topLeft.getX() + sideLength, topLeft.getY() + sideLength)) {
     init {

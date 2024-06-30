@@ -1,4 +1,4 @@
-package libs
+package shapeLibrary
 
 data class Point(private var x: Double, private var y: Double) {
     fun getX(): Double = x

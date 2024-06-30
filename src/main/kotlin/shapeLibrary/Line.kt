@@ -1,4 +1,4 @@
-package libs
+package shapeLibrary
 
 import kotlin.math.pow
 import kotlin.math.sqrt

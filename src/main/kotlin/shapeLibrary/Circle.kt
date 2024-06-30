@@ -1,4 +1,4 @@
-package libs
+package shapeLibrary
 
 class Circle(center: Point, radius: Double) : Ellipse(center, radius, radius) {
     init {

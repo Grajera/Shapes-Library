@@ -8,7 +8,7 @@ class CircleTest {
     @Test
     fun testGetArea() {
         val circle = Circle(Point(0.0, 0.0), 3.0)
-        assertEquals(Math.PI * 3.0 * 3.0, circle.getArea())
+        assertEquals(28.274333882308138, circle.getArea())
     }
 
     @Test

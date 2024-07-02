@@ -1,6 +1,6 @@
 package shapeLibrary
 
-class Square(topLeft: Point, sideLength: Double) : Rectangle(topLeft, Point(topLeft.getX() + sideLength, topLeft.getY() + sideLength)) {
+class Square(topLeftPoint: Point, sideLength: Double) : Rectangle(topLeftPoint, Point(topLeftPoint.getX() + sideLength, topLeftPoint.getY() + sideLength)) {
     init {
         require(sideLength > 0 ) { "A square cannot have zero size." }
     }

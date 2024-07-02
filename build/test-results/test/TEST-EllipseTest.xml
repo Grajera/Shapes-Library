@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="EllipseTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-07-02T04:08:09" hostname="DESKTOP-0OF3D0K" time="0.013">
+  <properties/>
+  <testcase name="testGetArea()" classname="EllipseTest" time="0.002"/>
+  <testcase name="testZeroRadiusEllipse()" classname="EllipseTest" time="0.002"/>
+  <testcase name="testGetRadiusA()" classname="EllipseTest" time="0.001"/>
+  <testcase name="testGetRadiusB()" classname="EllipseTest" time="0.001"/>
+  <testcase name="testMoveEllipse()" classname="EllipseTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
